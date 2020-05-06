@@ -64,7 +64,7 @@ Aether supports a large array of favicon formats. Simply add your favicons with 
  - site.webmanifest
 
 ### Creating content
-Make a new blog post by executing `hugo new post/postnamehere/index.md` in your shell. At the top of the new markdown file, is what's called the front matter. The front matter is the page's metadata that determines how Hugo and aether generate the HTML for your post. Below you can find what the front matter that aether uses and what each of the parameters mean.
+Make a new blog by executing `hugo new post/postnamehere/index.md` in your shell. At the top of the new markdown file, is what's called the front matter. The front matter is the page's metadata that determines how Hugo and aether generate the HTML for your post. Below you can find what the front matter that aether uses and what each of the parameters mean.
 
 ```yaml
 ---
@@ -135,7 +135,7 @@ description: "This is the subtext above the main heading in small letters"
 To override CSS, you should create file `project_root/assets/css/override.css` and place all your CSS inside it. This file will be merged with standard CSS when the site is generated.
 
 ## Helpful Links
-[Aether Blog Post](https://www.joehutch.com/post/aether-theme/) - See aether in action and learn more about the theme
+[Aether Blog Post](https://www.joehutch.com/posts/aether-theme/) - See aether in action and learn more about the theme
 
 [Hugo Documentation](https://gohugo.io/documentation/) - Learn how to use Hugo
 
